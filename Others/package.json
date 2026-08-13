@@ -1,0 +1,19 @@
+{
+  "name": "others-deepseek",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch --env-file=.env 01-deepseek.ts",
+    "start": "tsx --env-file=.env 01-deepseek.ts"
+  },
+  "dependencies": {
+    "openai": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

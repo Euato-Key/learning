@@ -1,1 +1,3 @@
-/Others
+node_modules*
+dist/
+.env
