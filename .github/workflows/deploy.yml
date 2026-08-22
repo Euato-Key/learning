@@ -1,0 +1,65 @@
+name: Deploy Vue to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'githubaction/**'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+
+# Pages 需要的权限
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 避免并发部署冲突，新的会排队而非取消进行中的
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: githubaction/package-lock.json
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Install dependencies
+        working-directory: githubaction
+        run: npm ci
+
+      - name: Build
+        working-directory: githubaction
+        run: npm run build
+
+      - name: Add 404 fallback for SPA
+        working-directory: githubaction
+        run: cp dist/index.html dist/404.html
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: githubaction/dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
