@@ -1,21 +1,107 @@
 # 算法 / 刷题顺序 · 精选仓库清单
 
-> 使用 `gh` CLI 多关键词（中英文）搜索筛选，精选 **10 个** 算法面试 & 刷题顺序相关仓库，按 Star 数排序。
-> **✅ = 你已 star 的仓库**（本次 10 个中暂无） ｜ ⚡ = 建议优先收藏。
+> 使用 `gh` CLI 多关键词（中英文）搜索筛选。分为「通用算法」与「**前端专属/前端友好**」两部分，按 Star 数排序。
+> 🖥️ **前端专属** = 专为前端/JS 程序员设计 ｜ ⚡ JS友好 = JS 实现、前端强烈推荐 ｜ ✅ = 你已 star ｜ 未标记 = 通用方向。
 
 - 📅 数据抓取时间：2026-09-02
-- 📊 总 Star：654,023 ｜ 已收藏：0/10
+- 📊 仓库总数：16 ｜ 总 Star：891,029
+- 🖥️ 前端专属：4 个 ｜ ⚡ JS友好：2 个 ｜ 已收藏：0
 
 ---
 
 ## 📑 目录
 
-1. [🏆 刷题顺序 / 路线类](#1-刷题顺序--路线类)
-2. [📚 算法题库 / 教程类](#2-算法题库--教程类)
+1. [🎯 前端专属 / 前端友好（强烈推荐前端收藏）](#-前端专属--前端友好强烈推荐前端收藏)
+2. [🏆 通用 · 刷题顺序 / 路线类](#-通用--刷题顺序--路线类)
+3. [📚 通用 · 算法题库 / 教程类](#-通用--算法题库--教程类)
 
 ---
 
-## 🏆 刷题顺序 / 路线类
+## 🎯 前端专属 / 前端友好（强烈推荐前端收藏）
+
+> 这一部分是为**前端/JS 程序员**挑选的算法仓库：🖥️ 表示**专为前端设计**（描述中直接面向前端算法面试/前端算法体系），⚡ 表示**全 JS 实现**、前端用起来最顺手。
+
+| # | 标记 | Star | 仓库 | 说明 |
+|---|------|------|------|------|
+| 1 | ⚡ JS友好 | 196.6k | [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) | JS 算法库 |
+| 2 | ⚡ JS友好 | 34.2k | [TheAlgorithms/JavaScript](https://github.com/TheAlgorithms/JavaScript) | JS 算法库 |
+| 3 | 🖥️ 前端专属 | 5.7k | [sisterAn/JavaScript-Algorithms](https://github.com/sisterAn/JavaScript-Algorithms) | 前端算法体系 |
+| 4 | 🖥️ 前端专属 | 494 | [hovinghuang/fe-agorithm-interview](https://github.com/hovinghuang/fe-agorithm-interview) | 前端算法面试 |
+| 5 | 🖥️ 前端专属 | 1 | [KongC-X/JS-Algorithm](https://github.com/KongC-X/JS-Algorithm) | JS 刷题 |
+| 6 | 🖥️ 前端专属 | 0 | [Lozoe/JavaScript-](https://github.com/Lozoe/JavaScript-) | 前端算法面试 |
+
+### ⚡ trekhleb/javascript-algorithms 
+
+- **专属标记**：⚡ **JS友好**（全 JS 实现，前端强烈推荐）
+- **状态**：⚡ **未收藏**
+- **分类**：JS 算法库
+- **描述**：📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+- **Star**：196,595 ⭐ ｜ **Fork**：31,035 ｜ **语言**：JavaScript
+- **链接**：<https://github.com/trekhleb/javascript-algorithms>
+- **创建**：2018-03-24 ｜ **最近更新**：2026-09-02
+- **备注**：算法+数据结构全 JS 实现，含图解与复杂度分析，前端刷题首选
+- **Topics**：`algorithm`, `algorithms`, `computer-science`, `data-structures`, `interview`, `interview-preparation`, `javascript`, `javascript-algorithms`
+
+### ⚡ TheAlgorithms/JavaScript 
+
+- **专属标记**：⚡ **JS友好**（全 JS 实现，前端强烈推荐）
+- **状态**：⚡ **未收藏**
+- **分类**：JS 算法库
+- **描述**：Algorithms and Data Structures implemented in JavaScript for beginners, following best practices.
+- **Star**：34,233 ⭐ ｜ **Fork**：5,846 ｜ **语言**：JavaScript
+- **链接**：<https://github.com/TheAlgorithms/JavaScript>
+- **创建**：2017-07-13 ｜ **最近更新**：2026-09-02
+- **备注**：全 JS 算法实现合集，适合当字典查阅
+- **Topics**：`algorithm`, `algorithm-challenges`, `algorithms`, `algorithms-implemented`, `cipher`, `conversions`, `cryptography`, `data-structures`, `hacktoberfest`, `javascript`, `mathematics`, `search`, `sort`, `sorting-algorithms`
+
+### 🖥️ sisterAn/JavaScript-Algorithms 
+
+- **专属标记**：🖥️ **前端专属**（专为前端/JS 程序员设计）
+- **状态**：⚡ **未收藏**
+- **分类**：前端算法体系
+- **描述**：基础理论+JS框架应用+实践，从0到1构建整个前端算法体系
+- **Star**：5,683 ⭐ ｜ **Fork**：643 ｜ **语言**：-
+- **链接**：<https://github.com/sisterAn/JavaScript-Algorithms>
+- **创建**：2020-04-01 ｜ **最近更新**：2026-09-02
+- **备注**：从 0 到 1 构建前端算法体系，基础理论+JS 框架应用，前端专属
+- **Topics**：`algorithms`, `interview`, `javascript`
+
+### 🖥️ hovinghuang/fe-agorithm-interview 
+
+- **专属标记**：🖥️ **前端专属**（专为前端/JS 程序员设计）
+- **状态**：⚡ **未收藏**
+- **分类**：前端算法面试
+- **描述**：前端算法面试常考题目解析。
+- **Star**：494 ⭐ ｜ **Fork**：44 ｜ **语言**：TypeScript
+- **链接**：<https://github.com/hovinghuang/fe-agorithm-interview>
+- **创建**：2022-04-08 ｜ **最近更新**：2026-08-31
+- **备注**：前端算法面试常考题目解析，直击前端面试
+
+### 🖥️ KongC-X/JS-Algorithm 
+
+- **专属标记**：🖥️ **前端专属**（专为前端/JS 程序员设计）
+- **状态**：⚡ **未收藏**
+- **分类**：JS 刷题
+- **描述**：每日JS算法刷题
+- **Star**：1 ⭐ ｜ **Fork**：0 ｜ **语言**：JavaScript
+- **链接**：<https://github.com/KongC-X/JS-Algorithm>
+- **创建**：2023-05-01 ｜ **最近更新**：2023-07-15
+- **备注**：每日 JS 算法刷题打卡
+
+### 🖥️ Lozoe/JavaScript- 
+
+- **专属标记**：🖥️ **前端专属**（专为前端/JS 程序员设计）
+- **状态**：⚡ **未收藏**
+- **分类**：前端算法面试
+- **描述**：前端算法面试（高频题库&题目解析）
+- **Star**：0 ⭐ ｜ **Fork**：0 ｜ **语言**：-
+- **链接**：<https://github.com/Lozoe/JavaScript->
+- **创建**：2024-01-14 ｜ **最近更新**：2024-01-14
+- **备注**：前端算法面试高频题库与题目解析
+
+---
+
+## 🏆 通用 · 刷题顺序 / 路线类
 
 | # | Star | Forks | 语言 | 仓库 |
 |---|------|-------|------|------|
@@ -58,7 +144,7 @@
 
 ---
 
-## 📚 算法题库 / 教程类
+## 📚 通用 · 算法题库 / 教程类
 
 | # | Star | Forks | 语言 | 仓库 |
 |---|------|-------|------|------|
@@ -152,9 +238,9 @@
 ## 📝 说明
 
 - 数据来源：GitHub 搜索 + `gh api` 实时抓取，Star 数为当前值，会随时间变化。
-- 筛选逻辑：关键词「算法面试 / 刷题顺序 / 算法 刷题 / leetcode 刷题 / algorithm interview / coding interview / data structures interview / 数据结构与算法 面试」等多组中英文搜索后人工去噪去重。
-- 挑选倾向：优先与前端/JS 开发者兼容的多语言仓库，兼顾「刷题顺序」路线型仓库。
-- 标记说明：✅ = 你的 GitHub 账号已 star；⚡ = 未收藏，建议优先补充。
+- 筛选逻辑：关键词「算法面试 / 刷题顺序 / leetcode 刷题 / algorithm interview / coding interview / 前端 算法 面试 / JavaScript 数据结构 算法」等多组中英文搜索后人工去噪去重。
+- 标记说明：🖥️ **前端专属** = 专为前端/JS 程序员设计；⚡ **JS友好** = 全 JS 实现；✅ = 你已 star；未标记 = 通用方向。
+- 通用类仓库面向所有工程师，前端使用时优先选支持 JS 的多语言仓库（如 leetcode-master）。
 
 ---
 
